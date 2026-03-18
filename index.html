@@ -7,7 +7,7 @@
     <!-- TODO: Open Graph 메타 태그를 설정하세요 -->
     <meta property="og:title" content="Who am I?: Yorke" />
     <meta property="og:description" content="우테코 8기 요크, 그는 누구인가?" />
-    <meta property="og:image" content="./images/profile.png`" />
+    <meta property="og:image" content="./images/profile.png" />
 
     <title>Who am I?</title>
     <link rel="stylesheet" href="./css/main.css" />
@@ -101,34 +101,54 @@
       <!-- 나를 울린 인생 작품 -->
       <section class="content-section" id="works">
         <h2>나를 울린 인생 작품</h2>
-        <div class="works-list">
-          <!-- TODO: 최소 2가지 작품을 소개하세요 -->
-          <!-- TODO: 작품 중 하나는 <video> 또는 <iframe>으로 영상을 삽입하세요 -->
-          <article class="work-card">
-            <div class="work-thumbnail">
-              <img src="./images/DSOTM.png" alt="the dark side of the moon album cover" />
-            </div>
-            <div class="work-info">
-              <h3>Pink Floyd - The Dark Side of the Moon</h3>
-              <p>노래나 앨범 디자인이나 인상적이었지만, 
-                앨범 트랙 전체를 돌았을 때 전곡이 하나의 곡처럼 이어지는 점,
-                마지막 트랙이랑 첫 트랙이랑 순환하는 것이 매우 인상적이었다.
-                <br><br>
-                특히 곡 전체적으로 떠다니면서 어두운 느낌(가사도 그렇지만)이 들게 하는 사운드가 좋았다.
-              </p>
-            </div>
-          </article>
-
-          <article class="work-card">
-            <div class="work-thumbnail">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/NfQD1QiQ9o4?si=uW-Oj_AYrpUw1eyv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            <div class="work-info">
-              <h3>Radiohead - The National Anthem</h3>
-              <p>처음 들었을 때 충격을 후반부의 혼란스러운 재즈 즉흥 연주가 인상적이었다.</p>
-            </div>
-          </article>
-        </div>
+        <ol class="works-list">
+          <li>
+            <article class="work-card">
+              <div class="work-thumbnail">
+                <img src="./images/DSOTM.png" alt="the dark side of the moon album cover" />
+              </div>
+              <div class="work-info">
+                <div class="work-tag">앨범</div>
+                <h3>Pink Floyd - The Dark Side of the Moon</h3>
+                <p>노래나 앨범 디자인이나 인상적이었지만,
+                  앨범 트랙 전체를 돌았을 때 전곡이 하나의 곡처럼 이어지는 점,
+                  마지막 트랙이랑 첫 트랙이랑 순환하는 것이 매우 인상적이었다.
+                  <br><br>
+                  특히 곡 전체적으로 떠다니면서 어두운 느낌(가사도 그렇지만)이 들게 하는 사운드가 좋았다.
+                </p>
+              </div>
+              <div id="dsotm-track-toggle">
+                <button id="dsotm-track-toggle-btn">트랙 리스트 보기</button>
+                <ol id="dsotm-track-list" >
+                  <li>Speak to Me</li>
+                  <li>Breathe (In the Air)</li>
+                  <li>On the Run</li>
+                  <li>Time</li>
+                  <li>The Great Gig in the Sky</li>
+                  <li>Money</li>
+                  <li>Us and Them</li>
+                  <li>Any Colour You Like</li>
+                  <li>Brain Damage</li>
+                  <li>Eclipse</li>
+                </ol>
+              </div>
+            </article>
+          </li>
+          <li>
+            <article class="work-card">
+              <div class="work-thumbnail">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/NfQD1QiQ9o4?si=uW-Oj_AYrpUw1eyv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              <div class="work-info">
+                <div class="work-tag">곡</div>
+                <h3>Radiohead - The National Anthem</h3>
+                <p>처음 들었을 때 '와 이게 뭐야'라고 육성으로 나온 곡이었다. 처음에는 진중한 곡이겠거니 했는데 후반부에
+                  점점 금관악기들이 쌓이면서 후반부에는 완전히 불협화음으로 이어지는 구성이 감명 깊었다.
+                </p>
+              </div>
+            </article>
+          </li>
+        </ol>
       </section>
 
       <!-- TIL (Today I Learned) -->
@@ -170,7 +190,9 @@
     </main>
 
     <footer>
-      <p>&copy; My Page</p>
+      <p>&copy; Who am I?</p>
+      <br>
+      <p>Contact us: <a href="mailto:lsj457@naver.com">lsj457@naver.com</a></p>
     </footer>
   </body>
 </html>

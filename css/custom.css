@@ -1,5 +1,6 @@
 .site-entry {
     margin-right: 10px;
+    display: inline-block;
 }
 
 .site-entry.tistory {
@@ -12,6 +13,7 @@
 
 .site-entry.tistory:hover {
   background-color: #d14000;
+  transform: scale(1.05);
 }
 
 .site-entry.github {
@@ -24,4 +26,43 @@
 
 .site-entry.github:hover {
   background-color: #1a1e22;
+  transform: scale(1.05);
+}
+
+.work-tag {
+  display: inline-block;
+  background-color: #4a5789;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  margin-bottom: 6px;
+}
+
+/* 트랙 토글 */
+#dsotm-track-toggle {
+  width: 100%;
+}
+
+#dsotm-track-toggle-btn {
+  background-color: #4a5789;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+#dsotm-track-toggle-btn:hover {
+  background-color: #5a67a0;
+}
+
+#dsotm-track-list {
+  margin-top: 12px;
+  padding-left: 20px;
+  color: #aaa;
+  line-height: 1.8;
+  list-style: decimal;
+  display: none;
 }

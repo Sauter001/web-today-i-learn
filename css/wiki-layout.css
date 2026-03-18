@@ -122,10 +122,12 @@ main {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  list-style: none;
 }
 
 .work-card {
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
   border-radius: 8px;
@@ -341,13 +343,23 @@ footer {
 }
 
 .til-form button[type="submit"] {
-  background-color: var(--primary-color);
+  background-color: var(--primary-btn-color);
   color: #fff;
+}
+
+.til-form button[type="submit"]:hover {
+  background-color: #6b6b4f;
+  transform: scale(1.05);
 }
 
 .til-form button[type="reset"] {
   background-color: #3a3a3a;
   color: #aaa;
+}
+
+.til-form button[type="reset"]:hover {
+  background-color: #4a4a4a;
+  transform: scale(1.05);
 }
 
 /* 영상 삽입 */
@@ -363,6 +375,7 @@ footer {
 /* 변수 */
 :root {
   --primary-color: #f4ffc7;
+  --primary-btn-color: #808763;
   --nav-bg-color: #1a1a1a;
   --hero-bg-color: #1e1e1e;
   --card-bg-color: #2a2a2a;

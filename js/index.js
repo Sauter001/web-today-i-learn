@@ -10,3 +10,14 @@ tilForm.addEventListener("submit", function (event) {
 
   // TODO: 입력값을 가져와서 새 TIL 항목을 만들어 목록에 추가하세요
 });
+
+// 트랙리스트 토글
+const trackListToggle = document.getElementById("dsotm-track-toggle-btn");
+trackListToggle.addEventListener("click", function () {
+  const trackList = document.getElementById("dsotm-track-list");
+  if (trackList.style.display === "none") {
+    trackList.style.display = "block";
+  } else {
+    trackList.style.display = "none";
+  }
+});
