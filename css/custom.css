@@ -52,6 +52,16 @@
   padding: 8px 16px;
   font-size: 0.85rem;
   cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+#dsotm-track-toggle-btn::after {
+  content: " ▼";
+  font-size: 0.7rem;
+}
+
+#dsotm-track-toggle-btn.open::after {
+  content: " ▲";
 }
 
 #dsotm-track-toggle-btn:hover {
@@ -65,4 +75,15 @@
   line-height: 1.8;
   list-style: decimal;
   display: none;
+}
+
+.work-card code {
+  background-color: rgb(68, 68, 68);
+  color: coral;
+  padding: 0px 4px;
+  border-radius: 4px;
+}
+
+.work-card p {
+  margin-bottom: 10px;
 }

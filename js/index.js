@@ -30,8 +30,10 @@ trackListToggle.addEventListener("click", function () {
   const trackList = document.getElementById("dsotm-track-list");
   if (trackList.style.display === "none") {
     trackList.style.display = "block";
+    trackListToggle.classList.add("open");
   } else {
     trackList.style.display = "none";
+    trackListToggle.classList.remove("open");
   }
 });
 
