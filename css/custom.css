@@ -82,6 +82,7 @@
   color: coral;
   padding: 0px 4px;
   border-radius: 4px;
+  font-family: Consolas, "Courier New", monospace;
 }
 
 .work-card p {
