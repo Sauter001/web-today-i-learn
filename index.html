@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
@@ -11,20 +11,22 @@
 
     <title>Who am I?</title>
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="icon" href="./images/favicon.ico">
+    <link rel="icon" href="./images/favicon.ico" />
     <script src="./js/index.js" defer></script>
   </head>
   <body>
-    <!-- 상단 내비게이션 -->
-    <nav class="top-nav">
-      <span class="nav-logo">Who am I?</span>
-      <ul class="nav-links">
-        <li><a href="#about">자기소개</a></li>
-        <li><a href="#gallery">갤러리</a></li>
-        <li><a href="#works">인생 작품</a></li>
-        <li><a href="#til">TIL</a></li>
-      </ul>
-    </nav>
+    <header>
+      <!-- 상단 내비게이션 -->
+      <nav class="top-nav">
+        <span class="nav-logo">Who am I?</span>
+        <ul class="nav-links">
+          <li><a href="#about">자기소개</a></li>
+          <li><a href="#gallery">갤러리</a></li>
+          <li><a href="#works">인생 작품</a></li>
+          <li><a href="#til">TIL</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <!-- 프로필 히어로 -->
     <section class="hero" id="about">
@@ -44,14 +46,25 @@
       <!-- 자기소개 -->
       <section class="content-section">
         <h2>자기소개</h2>
-        <p>안녕하세요! 백엔드 개발자를 지망하고 있습니다. DB와 네트워크 쪽에 흥미가 많습니다.</p>
-        
+        <p>
+          안녕하세요! 백엔드 개발자를 지망하고 있습니다. DB와 네트워크 쪽에
+          흥미가 많습니다.
+        </p>
+
         <a href="https://sauter001.tistory.com/" class="site-entry tistory">
           <span class="tistory">Tistory</span>
         </a>
         <a href="https://github.com/Sauter001" class="site-entry github">
-          <svg height="16" width="16" viewBox="0 0 16 16" fill="currentColor" style="vertical-align: middle; margin-right: 4px;">
-            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"/>
+          <svg
+            height="16"
+            width="16"
+            viewBox="0 0 16 16"
+            fill="currentColor"
+            style="vertical-align: middle; margin-right: 4px"
+          >
+            <path
+              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"
+            />
           </svg>
           GitHub
         </a>
@@ -86,15 +99,15 @@
         <h2>나만의 갤러리</h2>
         <p class="section-desc">잘 먹고 다닙니다</p>
         <div class="gallery-grid">
-          <img src="./images/my-gallary/photo1.jpg" alt="들기름 막국수">
-          <img src="./images/my-gallary/photo2.jpg" alt="목살">
-          <img src="./images/my-gallary/photo3.jpg" alt="마르게리타 피자">
-          <img src="./images/my-gallary/photo4.jpg" alt="봉골레 파스타">
-          <img src="./images/my-gallary/photo5.jpg" alt="모둠회">
-          <img src="./images/my-gallary/photo6.jpg" alt="돈까스 김치 나베">
-          <img src="./images/my-gallary/photo7.jpg" alt="규카츠 정식">
-          <img src="./images/my-gallary/photo8.jpg" alt="네기토로 군함초밥">
-          <img src="./images/my-gallary/photo9.jpg" alt="참치 연어 초밥">
+          <img src="./images/my-gallary/photo1.jpg" alt="들기름 막국수" />
+          <img src="./images/my-gallary/photo2.jpg" alt="목살" />
+          <img src="./images/my-gallary/photo3.jpg" alt="마르게리타 피자" />
+          <img src="./images/my-gallary/photo4.jpg" alt="봉골레 파스타" />
+          <img src="./images/my-gallary/photo5.jpg" alt="모둠회" />
+          <img src="./images/my-gallary/photo6.jpg" alt="돈까스 김치 나베" />
+          <img src="./images/my-gallary/photo7.jpg" alt="규카츠 정식" />
+          <img src="./images/my-gallary/photo8.jpg" alt="네기토로 군함초밥" />
+          <img src="./images/my-gallary/photo9.jpg" alt="참치 연어 초밥" />
         </div>
       </section>
 
@@ -105,21 +118,25 @@
           <li>
             <article class="work-card">
               <div class="work-thumbnail">
-                <img src="./images/DSOTM.png" alt="the dark side of the moon album cover" />
+                <img
+                  src="./images/DSOTM.png"
+                  alt="the dark side of the moon album cover"
+                />
               </div>
               <div class="work-info">
                 <div class="work-tag">앨범</div>
                 <h3>Pink Floyd - The Dark Side of the Moon</h3>
-                <p>노래나 앨범 디자인이나 인상적이었지만,
-                  앨범 트랙 전체를 돌았을 때 전곡이 하나의 곡처럼 이어지는 점,
-                  마지막 트랙이랑 첫 트랙이랑 순환하는 것이 매우 인상적이었다.
-                  <br><br>
-                  특히 곡 전체적으로 떠다니면서 어두운 느낌(가사도 그렇지만)이 들게 하는 사운드가 좋았다.
+                <p>
+                  노래나 앨범 디자인이나 인상적이었지만, 앨범 트랙 전체를 돌았을
+                  때 전곡이 하나의 곡처럼 이어지는 점, 마지막 트랙이랑 첫
+                  트랙이랑 순환하는 것이 매우 인상적이었다. <br /><br />
+                  특히 곡 전체적으로 떠다니면서 어두운 느낌(가사도 그렇지만)이
+                  들게 하는 사운드가 좋았다.
                 </p>
               </div>
               <div id="dsotm-track-toggle">
                 <button id="dsotm-track-toggle-btn">트랙 리스트 보기</button>
-                <ol id="dsotm-track-list" >
+                <ol id="dsotm-track-list">
                   <li>Speak to Me</li>
                   <li>Breathe (In the Air)</li>
                   <li>On the Run</li>
@@ -137,13 +154,32 @@
           <li>
             <article class="work-card">
               <div class="work-thumbnail">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/NfQD1QiQ9o4?si=uW-Oj_AYrpUw1eyv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/NfQD1QiQ9o4?si=uW-Oj_AYrpUw1eyv"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                    web-share;
+                  "
+                  allowfullscreen
+                ></iframe>
               </div>
               <div class="work-info">
                 <div class="work-tag">곡</div>
                 <h3>Radiohead - The National Anthem</h3>
-                <p>처음 들었을 때 '와 이게 뭐야'라고 육성으로 나온 곡이었다. 처음에는 진중한 곡이겠거니 했는데 후반부에
-                  점점 금관악기들이 쌓이면서 후반부에는 완전히 불협화음으로 이어지는 구성이 감명 깊었다.
+                <p>
+                  처음 들었을 때 '와 이게 뭐야'라고 육성으로 나온 곡이었다.
+                  처음에는 진중한 곡이겠거니 했는데 후반부에 점점 금관악기들이
+                  쌓이면서 후반부에는 완전히 불협화음으로 이어지는 구성이 감명
+                  깊었다.
                 </p>
               </div>
             </article>
@@ -164,11 +200,22 @@
           </div>
           <div class="form-group">
             <label for="til-title">제목</label>
-            <input type="text" id="til-title" name="title" placeholder="학습 주제를 입력하세요" required />
+            <input
+              type="text"
+              id="til-title"
+              name="title"
+              placeholder="학습 주제를 입력하세요"
+              required
+            />
           </div>
           <div class="form-group">
             <label for="til-content">내용</label>
-            <textarea id="til-content" name="content" placeholder="오늘 배운 내용을 정리해주세요" required></textarea>
+            <textarea
+              id="til-content"
+              name="content"
+              placeholder="오늘 배운 내용을 정리해주세요"
+              required
+            ></textarea>
           </div>
           <div class="form-actions">
             <button type="submit">등록</button>
@@ -182,16 +229,18 @@
           <article class="til-item">
             <time>2026-03-15</time>
             <h3>HTML 시멘틱 태그</h3>
-            <p>header, nav, main, section, article, footer 등 시멘틱 태그의 역할과 사용법을 배웠다.</p>
+            <p>
+              header, nav, main, section, article, footer 등 시멘틱 태그의
+              역할과 사용법을 배웠다.
+            </p>
           </article>
         </div>
       </section>
-
     </main>
 
     <footer>
       <p>&copy; Who am I?</p>
-      <br>
+      <br />
       <p>Contact us: <a href="mailto:lsj457@naver.com">lsj457@naver.com</a></p>
     </footer>
   </body>
