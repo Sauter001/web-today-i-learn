@@ -54,7 +54,7 @@
   width: 160px;
   height: 160px;
   border-radius: 50%;
-  background-color: #ddd;
+  background-color: #444;
   flex-shrink: 0;
   overflow: hidden;
 }
@@ -71,7 +71,7 @@
 }
 
 .profile-info .tagline {
-  color: #777;
+  color: #aaa;
   line-height: 1.6;
 }
 
@@ -98,7 +98,7 @@ main {
 
 .content-section > p,
 .section-desc {
-  color: #666;
+  color: #aaa;
   line-height: 1.8;
   margin-bottom: 24px;
 }
@@ -133,9 +133,9 @@ main {
 }
 
 .work-thumbnail {
-  width: 140px;
-  height: 180px;
-  background-color: #ddd;
+  width: 160px;
+  height: 160px;
+  background-color: #444;
   border-radius: 4px;
   flex-shrink: 0;
   overflow: hidden;
@@ -153,7 +153,7 @@ main {
 }
 
 .work-info p {
-  color: #666;
+  color: #aaa;
   line-height: 1.6;
 }
 
@@ -173,7 +173,7 @@ main {
 
 .til-item time {
   font-size: 0.85rem;
-  color: #999;
+  color: #888;
 }
 
 .til-item h3 {
@@ -182,7 +182,7 @@ main {
 }
 
 .til-item p {
-  color: #666;
+  color: #aaa;
   line-height: 1.6;
 }
 
@@ -228,8 +228,8 @@ main {
 }
 
 .comment-buttons button[type="reset"] {
-  background-color: #eee;
-  color: #666;
+  background-color: #3a3a3a;
+  color: #aaa;
 }
 
 .comment-list {
@@ -252,7 +252,7 @@ main {
 
 .comment-item p {
   margin-top: 6px;
-  color: #555;
+  color: #aaa;
   line-height: 1.6;
 }
 
@@ -260,7 +260,7 @@ main {
 footer {
   text-align: center;
   padding: 32px;
-  color: #aaa;
+  color: #777;
   font-size: 0.85rem;
 }
 
@@ -279,13 +279,13 @@ footer {
 
 .info-table th {
   width: 140px;
-  color: #555;
+  color: #bbb;
   font-weight: 700;
   background-color: var(--card-bg-color);
 }
 
 .info-table td {
-  color: #333;
+  color: #ddd;
 }
 
 /* TIL 작성 폼 */
@@ -309,7 +309,7 @@ footer {
 .til-form label {
   font-size: 0.85rem;
   font-weight: 700;
-  color: #555;
+  color: #bbb;
 }
 
 .til-form input,
@@ -346,26 +346,26 @@ footer {
 }
 
 .til-form button[type="reset"] {
-  background-color: #eee;
-  color: #666;
+  background-color: #3a3a3a;
+  color: #aaa;
 }
 
 /* 영상 삽입 */
 .work-card iframe,
 .work-card video {
-  width: 100%;
-  max-width: 480px;
-  aspect-ratio: 16 / 9;
+  width: 160px;
+  height: 160px;
+  aspect-ratio: 1 / 1;
   border: none;
   border-radius: 4px;
 }
 
 /* 변수 */
 :root {
-  --primary-color: #4a7c59;
-  --nav-bg-color: #fff;
-  --hero-bg-color: #f8faf8;
-  --card-bg-color: #fafafa;
-  --divider-color: #e8e8e8;
-  --font-default-color: #333;
+  --primary-color: #6abf7b;
+  --nav-bg-color: #1a1a1a;
+  --hero-bg-color: #1e1e1e;
+  --card-bg-color: #2a2a2a;
+  --divider-color: #3a3a3a;
+  --font-default-color: #e0e0e0;
 }

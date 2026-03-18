@@ -1,0 +1,27 @@
+.site-entry {
+    margin-right: 10px;
+}
+
+.site-entry.tistory {
+  background-color: #f15000;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.site-entry.tistory:hover {
+  background-color: #d14000;
+}
+
+.site-entry.github {
+  background-color: #24292e;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.site-entry.github:hover {
+  background-color: #1a1e22;
+}
